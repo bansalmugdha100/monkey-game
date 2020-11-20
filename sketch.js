@@ -106,7 +106,7 @@ function draw() {
    obstacle=createSprite(400,315,20,50);
    obstacle.lifetime=130
    obstacle.addImage(obstacleImage);
-  // obstacle.debug=true
+   //obstacle.debug=true
    obstacle.setCollider("rectangle",0,0,400,400)
    obstacle.velocityX=-5
    obsgr.add(obstacle);
